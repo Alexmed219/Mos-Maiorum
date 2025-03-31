@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+}
+
+.heading {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row; /* Ensures elements are in a row */
+  justify-content: center; /* Centers elements horizontally */
+  align-items: center; /* Aligns elements vertically */
+  gap: 20px; /* Adds spacing between spans */
+  padding: 10px;
+  list-style: none;
+ font-size: 30px;
+  font-family: "Saira Stencil One", sans-serif;
+  border-top: red solid 2px;
+}
+.nav :hover {
+  color: red;
+  
+}
+
+.heading-2 {
+  color: white;
+   font-family: "Saira Stencil One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+}
+
+.heading-image {
+  background-image: url(Assets/gym2.jpeg);
+  height: 205px;
+  width: 100%;
+  background-position: center;
+  border-bottom: 20px solid black;
+  margin-bottom: 15px;
+}
+
+.sub-text {
+  font-family: "Saira Stencil One", sans-serif;
+  font-size: 30px;
+}
+.intro {
+  font-family: "Saira Stencil One", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+.gym-2-image {
+  width: 684px;
+  height: 402px;
+  margin: 15px;
+  box-shadow: 0 0 30px 15px rgba(0, 0, 0, 0.3); /* Adjust spread & opacity */
+  border-radius: 10px; /* Optional: Rounds the edges */
+}
+.footer {
+  color: #fff; /* White text */
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 14px;
+}
+
+.footer-content p {
+  margin: 5px 0;
+}
