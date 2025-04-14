@@ -16,24 +16,28 @@
 
 .nav {
   display: flex;
-  flex-direction: row; /* Ensures elements are in a row */
-  justify-content: center; /* Centers elements horizontally */
-  align-items: center; /* Aligns elements vertically */
-  gap: 20px; /* Adds spacing between spans */
+  flex-direction: row;
+  /* Ensures elements are in a row */
+  justify-content: center;
+  /* Centers elements horizontally */
+  align-items: center;
+  /* Aligns elements vertically */
+  gap: 20px;
+  /* Adds spacing between spans */
   padding: 10px;
   list-style: none;
- font-size: 30px;
+  font-size: 30px;
   font-family: "Saira Stencil One", sans-serif;
   border-top: red solid 2px;
 }
+
 .nav :hover {
   color: red;
-  
 }
 
 .heading-2 {
   color: white;
-   font-family: "Saira Stencil One", sans-serif;
+  font-family: "Saira Stencil One", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 40px;
@@ -52,21 +56,27 @@
   font-family: "Saira Stencil One", sans-serif;
   font-size: 30px;
 }
+
 .intro {
   font-family: "Saira Stencil One", sans-serif;
   font-size: 20px;
   text-align: center;
   font-weight: bold;
 }
+
 .gym-2-image {
   width: 684px;
   height: 402px;
   margin: 15px;
-  box-shadow: 0 0 30px 15px rgba(0, 0, 0, 0.3); /* Adjust spread & opacity */
-  border-radius: 10px; /* Optional: Rounds the edges */
+  box-shadow: 0 0 30px 15px rgba(0, 0, 0, 0.3);
+  /* Adjust spread & opacity */
+  border-radius: 10px;
+  /* Optional: Rounds the edges */
 }
+
 .footer {
-  color: #fff; /* White text */
+  color: #fff;
+  /* White text */
   text-align: center;
   padding: 20px 10px;
   font-size: 14px;
@@ -74,4 +84,28 @@
 
 .footer-content p {
   margin: 5px 0;
+}
+
+.price {
+  text-align: center;
+  font-size: 100px;
+  margin-top: 30px;
+}
+
+.billing {
+  text-align: center;
+  margin-left: 10px;
+}
+
+.btn-sign-up {
+  border: none;
+ font-size: 20px;
+ background-color: red;
+ padding: 8px;
+ margin:10px;
+ border-radius: 5px;
+}
+.btn-sign-up:hover {
+  background-color: white;
+  color: red;
 }
