@@ -19,8 +19,10 @@
 
 <body>
     <div class="heading">
-        <a href="index.html"><h1 class="heading-2">MOS MAIORUM</h1></a>
-      </div>
+        <a href="index.html">
+            <h1 class="heading-2">MOS MAIORUM</h1>
+        </a>
+    </div>
     <div>
         <ol class="nav">
             <a href="index.html">
@@ -49,17 +51,41 @@
     <div class="heading-image"></div>
 
     <body>
-        <div class="intro">
-            <h1> AVAILABLE PLANS & PRICES</h1>
-            <p class="price">$79.99!</p>
-            <p class="billing">Billed annually upon sign-up with a one time $44.99 initiation fee</p>
-            <button class="btn-sign-up">Join Now!</button>
-            <p class="price">$89.99!</p>
-            <p class="billing">Billed monthly upon sign-up with a one time $44.99 initiation fee. <br>
-                Cancellation at any time during subscription.
-            </p>
-            <button class="btn-sign-up">Join Now!</button>
-        </div>
+        <form class="intro" action="/submit-form" method="POST">
+            <h2>SIGN UP</h2>
+
+            <!-- Text input -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+
+            <!-- Email input -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+
+            <!-- Password input -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br><br>
+
+            <!-- Radio buttons -->
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <br><br>
+
+            <!-- Checkbox -->
+            <input type="checkbox" id="terms" name="terms" required>
+            <label for="terms">I agree to the terms and conditions</label>
+            <br><br>
+
+            <!-- Submit button -->
+            <button type="submit" class="btn-sign-up">Sign Up</button>
+        </form>
+
         <script src="" async defer></script>
     </body>
     <footer class="footer">
@@ -69,5 +95,4 @@
             <p>Train like a warrior. Live with discipline.</p>
         </div>
     </footer>
-
 </html>
