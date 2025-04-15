@@ -67,7 +67,7 @@ a {
   font-size: 20px;
   text-align: center;
   font-weight: bold;
-  padding-top: 30px;
+  padding: 150px;
 }
 
 .gym-2-image {
@@ -123,4 +123,12 @@ a {
   margin: 30px;
   box-shadow: 0 0 30px 15px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
+}
+.social-img {
+height: 200px;
+width: 200px;
+padding: 30px;
+}
+ol{
+  list-style-type: none;
 }
