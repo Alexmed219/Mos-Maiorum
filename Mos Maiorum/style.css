@@ -6,6 +6,32 @@
   color: white;
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.intro {
+  animation: fadeIn 1s ease-in forwards;
+}
+
+#gym-2-image {
+  animation: fadeIn 2s ease-in forwards;
+}
+
+#customer-img {
+  animation: fadeIn 2s ease-in forwards;
+}
+
+#social-img {
+  animation: fadeIn 2s ease-in forwards
+}
+
 .heading {
   width: 100%;
   height: 200px;
@@ -68,9 +94,16 @@ a {
   text-align: center;
   font-weight: bold;
   padding: 150px;
+  transition: ease-in;
+  transition-duration: 2s;
 }
 
-.gym-2-image {
+.gym-cont {
+  display: flex;
+  justify-content: center;
+}
+
+#gym-2-image {
   width: 684px;
   height: 402px;
   margin: 15px;
@@ -78,6 +111,7 @@ a {
   /* Adjust spread & opacity */
   border-radius: 10px;
   /* Optional: Rounds the edges */
+
 }
 
 .footer {
@@ -117,18 +151,20 @@ a {
   color: red;
 }
 
-.customer-img {
+#customer-img {
   width: 400px;
   height: 400px;
   margin: 30px;
   box-shadow: 0 0 30px 15px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
 }
-.social-img {
-height: 200px;
-width: 200px;
-padding: 30px;
+
+#social-img {
+  height: 200px;
+  width: 200px;
+  padding: 30px;
 }
-ol{
+
+ol {
   list-style-type: none;
 }
